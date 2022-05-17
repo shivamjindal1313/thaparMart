@@ -1,0 +1,125 @@
+body{
+    background-color: #ffe8f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #03a9f4;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #ffffff;
+    color: #ff568f;
+    box-shadow: 0 0 10px#ffffff,0 0 20px #ffffff,0 0 40px #ffffff;
+
+  }
+  .page{
+      margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+/* .about{
+    background: url(images/about.png) no-repeat left;
+    background-size: 55%;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 100px 0;
+
+} */
+
+.about img{
+    background: no-repeat left;
+    background-size: 55%;
+    background-color: #ffe8f0;
+    overflow: hidden;
+    padding: 0px;
+    height: 400px;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 0px;
+}
+
+.container{
+    width: 55%;
+    float: right;
+    background-color: #ffe8f0;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+}
+.container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #0a0a0a;
+}
+.text{
+    font-size: 16px;
+    color: #0a0a0a;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+    font-family: 'Readex Pro', sans-serif;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0a0a0a;
+    font-family: 'Readex Pro', sans-serif;
+}
+@media(max-width:1200px){
+ .container{
+     padding: 20px;
+ }
+}
+@media(max-width:1000px) {
+    .about{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .container{
+        
+        width: 100%;
+    }
+}
+@media(max-width:543px) {
+    .about{
+        
+        padding: 0;
+        
+    }
+    .container{
+        
+        width: 100%;
+        
+    }
+}
+section{
+    float: right;
+}
+  
